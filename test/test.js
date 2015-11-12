@@ -1199,9 +1199,36 @@ describe('streamLib', function () {
         });
     });
 
-    describe('Sluice', function () {
-        it('should get tests');
-    });
+    // describe('Sluice', function () {
+    //     it('should pipe in normal state', function (done) {
+    //         var sluiceSteam = new streamLib.Sluice(),
+    //             firstPipe = new streamLib.Pipe(),
+    //             secondPipe = new streamLib.Pipe(),
+    //             nullStream = new streamLib.Null(false),
+    //             randomStream = new streamLib.Random.Alphanumeric();
+    //
+    //         randomStream.countdown = SMALLAMOUNT;
+    //
+    //         firstPipe.on('end', done);
+    //         sluiceSteam.on('end', done);
+    //         //randomStream.on('end', done);
+    //         secondPipe.on('end', done);
+    //         secondPipe.on('end', done);
+    //
+    //         randomStream
+    //             .pipe(firstPipe)
+    //             .pipe(sluiceSteam)
+    //             .pipe(secondPipe)
+    //             .pipe(nullStream);
+    //
+    //
+    //     });
+    //     it('should get tests');
+    // });
+    //
+    // describe('Beat', function () {
+    //     it('should get tests');
+    // });
 
     describe('Event', function () {
         var EventEmitter = require('events').EventEmitter;
