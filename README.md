@@ -17,7 +17,7 @@ var streamLib = require('stream-lib');
 // new streamLib.Random.Alphanumeric();
 ```
 
-*Please take also a look into the [JSDoc](jsdoc/index.html)*
+*Please take also a look into the [JSDoc](streamlib.atd-schubert.com/jsdoc/index.html)*
 
 ### Buffer
 
