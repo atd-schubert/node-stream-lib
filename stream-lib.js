@@ -13,7 +13,6 @@
 /**
  * Associative array of lib classes.
  * @type {{}}
- * @property {streamLib.Beat} Beat
  * @property {streamLib.BufferStream} Buffer
  * @property {streamLib.Concat} Concat
  * @property {streamLib.EventStream} Event
@@ -25,14 +24,17 @@
  * @property {streamLib.Random} Random
  * @property {streamLib.Sequencer} Sequencer
  * @property {streamLib.Spawn} Spawn
- * @property {streamLib.Sluice} Sluice
  * @property {streamLib.Unit} Unit
  * @property {streamLib.UpperCase} UpperCase
  */
+/*
+ * @property {streamLib.Beat} Beat private at this time
+ * @property {streamLib.Sluice} Sluice private at this time
+ */
 var streamLib = {
-    Beat: require('./lib/beat'), // jsdoc-methods
-    Buffer: require('./lib/buffer'), // OK
-    Concat: require('./lib/concat'), // OK
+    Beat: require('./lib/beat'),
+    Buffer: require('./lib/buffer'),
+    Concat: require('./lib/concat'),
     Event: require('./lib/event'),
     hex: require('./lib/hex'),
     LowerCase: require('./lib/lower-case'),
