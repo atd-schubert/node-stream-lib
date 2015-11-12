@@ -1,6 +1,6 @@
 {
   "name": "stream-lib",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A library with stream utilities for node.js",
   "main": "stream-lib.js",
   "directories": {
@@ -24,7 +24,5 @@
     "url": "https://github.com/atd-schubert/node-stream-lib/issues"
   },
   "homepage": "https://github.com/atd-schubert/node-stream-lib#readme",
-  "dependencies": {
-    "temp": "^0.8.3"
-  }
+  "dependencies": {}
 }
