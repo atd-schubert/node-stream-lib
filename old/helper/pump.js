@@ -4,7 +4,7 @@
 
 /**
  * A pump pumps data from a source to a destination. Source and destination can be readable and writable streams.
- * @param onPumpFn
+ * @param {function} onPumpFn - Pump callback
  * @constructor
  */
 var Pump = function (onPumpFn) {
